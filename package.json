@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "echo BUILD OK",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/LifeSource/how-to-tabs/issues"
   },
-  "homepage": "https://github.com/LifeSource/how-to-tabs#readme"
+  "homepage": "https://github.com/LifeSource/how-to-tabs#readme",
+  "devDependencies": {
+    "babel-cli": "^6.7.5",
+    "babel-core": "^6.7.6",
+    "browser-sync": "^2.12.3",
+    "eslint": "^2.8.0",
+    "webpack": "^1.13.0"
+  }
 }
